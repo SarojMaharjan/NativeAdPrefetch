@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21516CE774EE746FA843E8FF /* Pods_NativeAdTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D70B8B4630A013639176487 /* Pods_NativeAdTestApp.framework */; };
+		93E363D4B0B3DB8850B23606 /* Pods_NativeAdTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412466D0A8E1AC6DB3F356C6 /* Pods_NativeAdTestAppTests.framework */; };
+		B5FCC4D177DF2E29E31780EC /* Pods_NativeAdTestApp_NativeAdTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB6A2F30F9E5A10587BE19B /* Pods_NativeAdTestApp_NativeAdTestAppUITests.framework */; };
 		C108DD7A289A3CDB0071A24F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DD79289A3CDB0071A24F /* AppDelegate.swift */; };
 		C108DD7C289A3CDB0071A24F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DD7B289A3CDB0071A24F /* SceneDelegate.swift */; };
 		C108DD7E289A3CDB0071A24F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DD7D289A3CDB0071A24F /* ViewController.swift */; };
@@ -16,6 +19,11 @@
 		C108DD91289A3CDD0071A24F /* NativeAdTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DD90289A3CDD0071A24F /* NativeAdTestAppTests.swift */; };
 		C108DD9B289A3CDD0071A24F /* NativeAdTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DD9A289A3CDD0071A24F /* NativeAdTestAppUITests.swift */; };
 		C108DD9D289A3CDD0071A24F /* NativeAdTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DD9C289A3CDD0071A24F /* NativeAdTestAppUITestsLaunchTests.swift */; };
+		C1A51006289A42C40055FEA3 /* UnifiedAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A51005289A42C40055FEA3 /* UnifiedAdView.xib */; };
+		C1A51009289A43B00055FEA3 /* UnifiedAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A51008289A43B00055FEA3 /* UnifiedAdView.swift */; };
+		C1B5689828A3B0500028EF33 /* AdsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5689728A3B0500028EF33 /* AdsCache.swift */; };
+		C1B5689A28A3B2730028EF33 /* AdUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5689928A3B2730028EF33 /* AdUnit.swift */; };
+		C1B5689C28A3B2E20028EF33 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5689B28A3B2E20028EF33 /* AdsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C793E4B133802A42983531 /* Pods-NativeAdTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-NativeAdTestAppTests/Pods-NativeAdTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1359F97F50F6FB10CC440A77 /* Pods-NativeAdTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdTestAppTests/Pods-NativeAdTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D70B8B4630A013639176487 /* Pods_NativeAdTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeAdTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		412466D0A8E1AC6DB3F356C6 /* Pods_NativeAdTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeAdTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4198A8CDE483449B26EFB399 /* Pods-NativeAdTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdTestApp.release.xcconfig"; path = "Target Support Files/Pods-NativeAdTestApp/Pods-NativeAdTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		51EF26B1B725BB7364107F65 /* Pods-NativeAdTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdTestApp.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdTestApp/Pods-NativeAdTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		97AFA3068D666E73BA379095 /* Pods-NativeAdTestApp-NativeAdTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdTestApp-NativeAdTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NativeAdTestApp-NativeAdTestAppUITests/Pods-NativeAdTestApp-NativeAdTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BB6A2F30F9E5A10587BE19B /* Pods_NativeAdTestApp_NativeAdTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeAdTestApp_NativeAdTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CA96C679EF330105DD5E8A /* Pods-NativeAdTestApp-NativeAdTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdTestApp-NativeAdTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdTestApp-NativeAdTestAppUITests/Pods-NativeAdTestApp-NativeAdTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C108DD76289A3CDB0071A24F /* NativeAdTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeAdTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C108DD79289A3CDB0071A24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C108DD7B289A3CDB0071A24F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,12 @@
 		C108DD96289A3CDD0071A24F /* NativeAdTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeAdTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C108DD9A289A3CDD0071A24F /* NativeAdTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdTestAppUITests.swift; sourceTree = "<group>"; };
 		C108DD9C289A3CDD0071A24F /* NativeAdTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1A51005289A42C40055FEA3 /* UnifiedAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnifiedAdView.xib; sourceTree = "<group>"; };
+		C1A51007289A43350055FEA3 /* GADUnifiedNativeAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		C1A51008289A43B00055FEA3 /* UnifiedAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedAdView.swift; sourceTree = "<group>"; };
+		C1B5689728A3B0500028EF33 /* AdsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCache.swift; sourceTree = "<group>"; };
+		C1B5689928A3B2730028EF33 /* AdUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdUnit.swift; sourceTree = "<group>"; };
+		C1B5689B28A3B2E20028EF33 /* AdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21516CE774EE746FA843E8FF /* Pods_NativeAdTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E363D4B0B3DB8850B23606 /* Pods_NativeAdTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FCC4D177DF2E29E31780EC /* Pods_NativeAdTestApp_NativeAdTestAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9902B4D75ABD62403ACAFD14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51EF26B1B725BB7364107F65 /* Pods-NativeAdTestApp.debug.xcconfig */,
+				4198A8CDE483449B26EFB399 /* Pods-NativeAdTestApp.release.xcconfig */,
+				B9CA96C679EF330105DD5E8A /* Pods-NativeAdTestApp-NativeAdTestAppUITests.debug.xcconfig */,
+				97AFA3068D666E73BA379095 /* Pods-NativeAdTestApp-NativeAdTestAppUITests.release.xcconfig */,
+				1359F97F50F6FB10CC440A77 /* Pods-NativeAdTestAppTests.debug.xcconfig */,
+				05C793E4B133802A42983531 /* Pods-NativeAdTestAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C108DD6D289A3CDB0071A24F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				C108DD8F289A3CDD0071A24F /* NativeAdTestAppTests */,
 				C108DD99289A3CDD0071A24F /* NativeAdTestAppUITests */,
 				C108DD77289A3CDB0071A24F /* Products */,
+				9902B4D75ABD62403ACAFD14 /* Pods */,
+				C8CC4D645282D4F35C9C8FC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +140,7 @@
 		C108DD78289A3CDB0071A24F /* NativeAdTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				C108DDA9289A3D5A0071A24F /* adFiles */,
 				C108DD79289A3CDB0071A24F /* AppDelegate.swift */,
 				C108DD7B289A3CDB0071A24F /* SceneDelegate.swift */,
 				C108DD7D289A3CDB0071A24F /* ViewController.swift */,
@@ -106,6 +148,9 @@
 				C108DD82289A3CDD0071A24F /* Assets.xcassets */,
 				C108DD84289A3CDD0071A24F /* LaunchScreen.storyboard */,
 				C108DD87289A3CDD0071A24F /* Info.plist */,
+				C1B5689728A3B0500028EF33 /* AdsCache.swift */,
+				C1B5689928A3B2730028EF33 /* AdUnit.swift */,
+				C1B5689B28A3B2E20028EF33 /* AdsManager.swift */,
 			);
 			path = NativeAdTestApp;
 			sourceTree = "<group>";
@@ -127,6 +172,26 @@
 			path = NativeAdTestAppUITests;
 			sourceTree = "<group>";
 		};
+		C108DDA9289A3D5A0071A24F /* adFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C1A51005289A42C40055FEA3 /* UnifiedAdView.xib */,
+				C1A51007289A43350055FEA3 /* GADUnifiedNativeAdView.h */,
+				C1A51008289A43B00055FEA3 /* UnifiedAdView.swift */,
+			);
+			path = adFiles;
+			sourceTree = "<group>";
+		};
+		C8CC4D645282D4F35C9C8FC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D70B8B4630A013639176487 /* Pods_NativeAdTestApp.framework */,
+				9BB6A2F30F9E5A10587BE19B /* Pods_NativeAdTestApp_NativeAdTestAppUITests.framework */,
+				412466D0A8E1AC6DB3F356C6 /* Pods_NativeAdTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C108DDA0289A3CDD0071A24F /* Build configuration list for PBXNativeTarget "NativeAdTestApp" */;
 			buildPhases = (
+				4B105637AA36782464530FC2 /* [CP] Check Pods Manifest.lock */,
 				C108DD72289A3CDB0071A24F /* Sources */,
 				C108DD73289A3CDB0071A24F /* Frameworks */,
 				C108DD74289A3CDB0071A24F /* Resources */,
+				80B290703D166441DAFA9B4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C108DDA3289A3CDD0071A24F /* Build configuration list for PBXNativeTarget "NativeAdTestAppTests" */;
 			buildPhases = (
+				A9A81D9F1D0F979294FC24E5 /* [CP] Check Pods Manifest.lock */,
 				C108DD88289A3CDD0071A24F /* Sources */,
 				C108DD89289A3CDD0071A24F /* Frameworks */,
 				C108DD8A289A3CDD0071A24F /* Resources */,
@@ -169,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C108DDA6289A3CDD0071A24F /* Build configuration list for PBXNativeTarget "NativeAdTestAppUITests" */;
 			buildPhases = (
+				E513F63ED2306EAEEE9E9F1F /* [CP] Check Pods Manifest.lock */,
 				C108DD92289A3CDD0071A24F /* Sources */,
 				C108DD93289A3CDD0071A24F /* Frameworks */,
 				C108DD94289A3CDD0071A24F /* Resources */,
+				BDC6EC1AD366D5F8D3A99766 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +303,7 @@
 			files = (
 				C108DD86289A3CDD0071A24F /* LaunchScreen.storyboard in Resources */,
 				C108DD83289A3CDD0071A24F /* Assets.xcassets in Resources */,
+				C1A51006289A42C40055FEA3 /* UnifiedAdView.xib in Resources */,
 				C108DD81289A3CDB0071A24F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,13 +324,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B105637AA36782464530FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAdTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B290703D166441DAFA9B4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAdTestApp/Pods-NativeAdTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAdTestApp/Pods-NativeAdTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeAdTestApp/Pods-NativeAdTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A81D9F1D0F979294FC24E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAdTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC6EC1AD366D5F8D3A99766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAdTestApp-NativeAdTestAppUITests/Pods-NativeAdTestApp-NativeAdTestAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAdTestApp-NativeAdTestAppUITests/Pods-NativeAdTestApp-NativeAdTestAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeAdTestApp-NativeAdTestAppUITests/Pods-NativeAdTestApp-NativeAdTestAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E513F63ED2306EAEEE9E9F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAdTestApp-NativeAdTestAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C108DD72289A3CDB0071A24F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B5689C28A3B2E20028EF33 /* AdsManager.swift in Sources */,
 				C108DD7E289A3CDB0071A24F /* ViewController.swift in Sources */,
+				C1B5689828A3B0500028EF33 /* AdsCache.swift in Sources */,
+				C1B5689A28A3B2730028EF33 /* AdUnit.swift in Sources */,
 				C108DD7A289A3CDB0071A24F /* AppDelegate.swift in Sources */,
+				C1A51009289A43B00055FEA3 /* UnifiedAdView.swift in Sources */,
 				C108DD7C289A3CDB0071A24F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,12 +610,13 @@
 		};
 		C108DDA1289A3CDD0071A24F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EF26B1B725BB7364107F65 /* Pods-NativeAdTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Y528CUG5X;
+				DEVELOPMENT_TEAM = H6HPP8638P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NativeAdTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,7 +629,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luvaah.saroj.NativeAdTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonzun.ivf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,12 +639,13 @@
 		};
 		C108DDA2289A3CDD0071A24F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4198A8CDE483449B26EFB399 /* Pods-NativeAdTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Y528CUG5X;
+				DEVELOPMENT_TEAM = H6HPP8638P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NativeAdTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,7 +658,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luvaah.saroj.NativeAdTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonzun.ivf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +668,7 @@
 		};
 		C108DDA4289A3CDD0071A24F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1359F97F50F6FB10CC440A77 /* Pods-NativeAdTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +689,7 @@
 		};
 		C108DDA5289A3CDD0071A24F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C793E4B133802A42983531 /* Pods-NativeAdTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +710,7 @@
 		};
 		C108DDA7289A3CDD0071A24F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CA96C679EF330105DD5E8A /* Pods-NativeAdTestApp-NativeAdTestAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +729,7 @@
 		};
 		C108DDA8289A3CDD0071A24F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97AFA3068D666E73BA379095 /* Pods-NativeAdTestApp-NativeAdTestAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

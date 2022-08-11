@@ -1,0 +1,6 @@
+framework module Pods_NativeAdTestApp_NativeAdTestAppUITests {
+  umbrella header "Pods-NativeAdTestApp-NativeAdTestAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
